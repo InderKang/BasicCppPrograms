@@ -22,7 +22,7 @@ class triangle {
 };
 int main() {
 	triangle tri;
-	rect.input();
+	tri.input();
 	cout<<"Area of Triangle = "<<tri.findarea();
 	cout<<"\nPerimeter of Triangle = "<<tri.findperimeter();
 }
