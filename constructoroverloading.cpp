@@ -19,6 +19,6 @@ class area {
 };
 int main() {
 	area(7);
-	area(5,5);
+	area(5,10);
 	area(3.14,2);
 }
