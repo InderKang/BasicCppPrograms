@@ -13,7 +13,7 @@ int main(){
 	cout<<"Enter Science Marks: ";
 	cin>>science;
 	if (maths>100 || english>100 || science>100){
-		cout<<"Value must be less than 100!";
+		cout<<"Value must be less than or equal to 100!";
 		return 1;
 	}
 	total = maths+english+science;
