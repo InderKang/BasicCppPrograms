@@ -2,7 +2,7 @@
 // Author: Inderpreet
 #include <iostream>
 using namespace std;
-class rectangle {
+class triangle {
 	public:
 	float base,height,area,perimeter;
 	void input(){
@@ -21,8 +21,8 @@ class rectangle {
 	}
 };
 int main() {
-	rectangle rect;
+	triangle tri;
 	rect.input();
-	cout<<"Area of Triangle = "<<rect.findarea();
-	cout<<"\nPerimeter of Triangle = "<<rect.findperimeter();
+	cout<<"Area of Triangle = "<<tri.findarea();
+	cout<<"\nPerimeter of Triangle = "<<tri.findperimeter();
 }
