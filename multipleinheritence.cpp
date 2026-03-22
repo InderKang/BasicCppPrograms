@@ -14,7 +14,7 @@ public:
 };
 class marks {
 public:
-	int math, english, computer = 99;
+	int math, english, computer;
 	double percentage;
 	void marksheet() {
 		math = 95;
